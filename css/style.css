@@ -248,8 +248,14 @@ footer .sezione-small p:nth-child(1){
 #icone{
     justify-content: flex-start;
 }
-#lingua::before{
-    content: "";
+.lingua{
+    display: inline;
+}
+.lingua{
+    width: 30px;
+    height: 15px;
+    margin-right: 10px;
+    text-align: center;
 }
 footer button img{
     width: 50%;
