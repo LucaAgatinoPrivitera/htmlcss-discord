@@ -231,8 +231,10 @@ footer h2{
 footer p{
     color: white;
 }
-footer icon{
+footer i{
     color: white;
+    margin-right: 20px;
+
 }
 
 footer .sezione-small p:nth-child(1){
@@ -269,4 +271,8 @@ footer button img{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+i{
+
 }
