@@ -114,7 +114,8 @@ h1{
 section p{
     color: white;
 }
-main button{
+main button,
+footer button{
     margin-top: 20px;
     background-color: white;
     text-decoration: none;
@@ -157,20 +158,20 @@ main button{
 .sezione-big{
     width: calc(100% - 30%);
     height: 30vh;
-    background-color: rgb(77, 88, 233);
-    border: 2px solid green;
-    border-style: dotted;
+    /* background-color: rgb(77, 88, 233); */
+    /* border: 2px solid green; */
+    /* border-style: dotted; */
 }
 .sezione-small{
     width: calc(100% - 70%);
     height: 30vh;
-    background-color: pink;
-    border: 2px solid green;
-    border-style: dotted;
+    /* background-color: pink; */
+    /* border: 2px solid green; */
+    /* border-style: dotted; */
 }
 
 .sezione-noflex{
-    background-color: green;
+    /* background-color: green; */
     width: 100%;
     margin: auto;
     text-align: center;
@@ -187,10 +188,10 @@ footer{
 }
 
 footer .sezione-big{
-    background-color: rgb(238, 159, 128);
+    /* background-color: rgb(238, 159, 128); */
 }
 footer .sezione-small{
-    background-color: rgb(57, 185, 224);
+    /* background-color: rgb(57, 185, 224); */
 }
 
 .footerbuttons{
@@ -200,7 +201,7 @@ footer .sezione-small{
     width: 60vw;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(30, 159, 168);
+    /* background-color: rgb(30, 159, 168); */
     margin: auto;
     padding: 15px 0;
 }
@@ -222,4 +223,44 @@ img{
     height: 100%;
     object-fit: cover;
     margin: auto;
+}
+
+footer h2{
+    color: rgb(77, 88, 233);
+}
+footer p{
+    color: white;
+}
+footer icon{
+    color: white;
+}
+
+footer .sezione-small p:nth-child(1){
+    color: rgb(77, 88, 233);
+}
+
+.sezione-big, .sezione-small{
+    margin: auto;
+    width: 100%;
+    padding-top: 20px;
+}
+
+#icone{
+    justify-content: flex-start;
+}
+#lingua::before{
+    content: "";
+}
+footer button img{
+    width: 50%;
+}
+.footer_logo{
+    width: 200px;
+    margin: 20px 10px;
+    padding: 20px;
+}
+.footerbuttons-pulsanti{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
