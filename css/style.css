@@ -76,6 +76,14 @@ header button{
     border-radius: 30px;
     margin: 20px 10px;
 }
+/* fixa la navbar*/
+#logo-fix{
+    width: 25%;
+    object-fit: contain;
+}
+#centro-fix{
+    width: 50%;
+}
 /* Header */
 
 
@@ -272,8 +280,4 @@ footer button img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-i{
-
 }
