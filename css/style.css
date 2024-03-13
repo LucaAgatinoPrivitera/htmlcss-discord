@@ -124,6 +124,7 @@ footer button{
     border: none;
     border-radius: 30px;
     margin: 20px 10px;
+    line-height: 0px; /*fixa i button*/
 }
 #black_button{
     background-color: black;
