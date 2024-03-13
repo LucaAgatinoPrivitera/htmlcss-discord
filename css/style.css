@@ -17,21 +17,37 @@
     border-style: dotted;
 } */
 
+.sfondo-nobg{
+    background-color: rgb(64, 78, 237);
+    padding: 20px 0 20px 0;
+}
 .sfondo{
     background-color: rgb(64, 78, 237);
     padding: 20px 0 20px 0;
 }
+.wave{
+    background-image: url(../img/wave.svg);
+    height: 60px;
+    opacity: 0.04;
+}
+.rotate-90{
+    transform: rotate(3.142rad);
+}
+
+
 .sfondo:nth-child(even){
-    background-color: rgb(246, 246, 246);
     padding: 20px 0 20px 0;
 }
 .sfondo:nth-child(odd){
-    background-color: rgb(255, 255, 255);
     padding: 20px 0 20px 0;
 }
-.sfondo:nth-child(even){
+.bg-white{
+    background-color: rgb(255, 255, 255);
+}
+.bg-lightgrey{
     background-color: rgb(246, 246, 246);
 }
+
 /********* Generico *********/
 
 
